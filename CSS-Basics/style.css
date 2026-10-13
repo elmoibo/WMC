@@ -1,0 +1,52 @@
+/* Box-Model: padding und border zählen zur Breite dazu */
+* {
+    box-sizing: border-box;
+}
+
+/* Hintergrund und Textfarbe der ganzen Seite */
+body {
+    margin: 0;
+    padding: 2rem;
+    background-color: #1e2a38;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* Überschrift mit halbtransparentem rgba()-Hintergrund */
+h1 {
+    margin: 0 0 2rem;
+    padding: 1rem 1.5rem;
+    background-color: rgba(255, 165, 0, 0.6);
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    color: #ffb347;
+}
+
+/* Eigene Klasse für die Abschnitte */
+.karte {
+    max-width: 40rem;
+    margin: 0 auto 1.5rem;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 0.125rem solid rgba(255, 165, 0, 0.4);
+    border-radius: 0.75rem;
+}
+
+code {
+    padding: 0.1rem 0.3rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0.25rem;
+    font-family: Consolas, monospace;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.875rem;
+    color: rgba(240, 240, 240, 0.6);
+}
